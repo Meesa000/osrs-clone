@@ -4,6 +4,8 @@
     padding-right: 5px;
     padding-left: 2px;
     border: solid black 1px;
+    border-radius: 5px;
+    box-shadow: 5px;
 }
 
 .player-container button {
