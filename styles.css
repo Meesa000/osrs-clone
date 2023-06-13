@@ -1,6 +1,12 @@
 .player-container span{
     font-weight: bold;
+    font-size: 24px;
     padding-right: 5px;
     padding-left: 2px;
-    border: solid black 2px;
+    border: solid black 1px;
+}
+
+.player-container button {
+    font-size: 20px;
+    margin-left: 5px;
 }
