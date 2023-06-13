@@ -4,23 +4,25 @@
 
 
 
-const playerName = document.getElementById("player-name");
-const changePlayerName = document.getElementById("change-player-name");
+let playerName = document.getElementById("player-name");
+let changePlayerName = document.getElementById("change-player-name");
 
 changePlayerName.addEventListener("click", function() {
-    const newName = prompt("Enter new name: ")
+    let newName = prompt("Enter new name: ")
 
     playerName.textContent = "Name: " + newName;
 
 
 });
 
-const xpSpan = document.getElementById("xp-span");
-const healthSpan = document.getElementById("health-span");
+let xpSpan = document.getElementById("xp-span");
+let healthSpan = document.getElementById("health-span");
+let goldSpan = document.getElementById("gold-span");
 
-
-const xpValue = 0;
-const healthValue = 99;
+let goldValue = 0;
+let xpValue = 0;
+let healthValue = 99;
 
 xpSpan.textContent += xpValue;
 healthSpan.textContent += healthValue;
+goldSpan.textContent += goldValue;
