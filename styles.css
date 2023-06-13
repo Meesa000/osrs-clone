@@ -1,6 +1,6 @@
-.player-stats-container span{
+.player-container span{
     font-weight: bold;
-    padding-right: 20px;
+    padding-right: 5px;
     padding-left: 2px;
     border: solid black 2px;
 }
