@@ -1,5 +1,6 @@
 body{
-    background-color: darkgray;
+    background-color: rgb(58, 63, 66)
+    ;
 }
 
 .body-container{
@@ -10,7 +11,9 @@ body{
     padding: 5px;
     border: 2px solid black;
     border-radius: 5px;
-    background-color: lightgrey;
+    background-color: rgb(73, 79, 82);
+    color: whitesmoke;
+    
 }
 
 
@@ -18,11 +21,12 @@ body{
     display: flex;
     margin-top: 5px;
     justify-content: center;
+    
 }
 
 .player-container span{
     font-weight: bold;
-    font-size: 24px;
+    font-size: 36px;
     padding-right: 5px;
     padding-left: 2px;
     margin: 0px 15px 0 0;
@@ -33,23 +37,30 @@ body{
 }
 
 .player-container button {
-    font-size: 20px;
+    font-size: 30px;
     margin-left: 5px;
-    /* margin-top: 5px; */
 
 }
 
 .nav-container{
     text-align: center;
     margin: 5px auto;
-    width: 350px;
+    width: 500px;
     height: 85px;
-    border: 2px solid black;
+
+    
 
 }
 
 .nav-container h3{
     padding-top: -10px;
+    margin-bottom: -5px;
+    font-size: 34px;
 
 }
 
+
+.nav-container button {
+    font-size: 20px;
+    
+}
