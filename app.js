@@ -8,10 +8,33 @@ let playerName = document.getElementById("player-name");
 let changePlayerName = document.getElementById("change-player-name");
 
 changePlayerName.addEventListener("click", function() {
-    let newName = prompt("Enter new name: ")
 
-    playerName.textContent = "Name: " + newName;
+    let nameAccess = false;
 
+    while (nameAccess == false){
+
+        let newName = prompt("Enter new name: ");
+        let nameLength = newName.length;
+        
+        if (nameLength <= 5) {
+            console.log("Name length is less than 5");
+            playerName.textContent = "Name: " + newName;
+            break;
+
+        }
+        else{
+            alert("Username more than 5 characters!")
+            continue;
+        }
+        
+            
+        
+
+    }
+    
+    
+    
+    
 
 });
 
