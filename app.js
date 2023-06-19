@@ -10,7 +10,6 @@ let changePlayerName = document.getElementById("change-player-name");
 changePlayerName.addEventListener("click", function() {
 
     let nameAccess = false;
-
     while (nameAccess == false){
 
         let newName = prompt("Enter new name: ");
@@ -25,18 +24,13 @@ changePlayerName.addEventListener("click", function() {
         else{
             alert("Username more than 5 characters!")
             continue;
-        }
-        
-            
-        
-
+        }     
     }
-    
-    
-    
-    
 
 });
+
+
+//player info variables
 
 let xpSpan = document.getElementById("xp-span");
 let healthSpan = document.getElementById("health-span");

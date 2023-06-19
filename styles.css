@@ -17,6 +17,7 @@ body{
     border-radius: 5px;
     background-color: rgb(73, 79, 82);
     color: whitesmoke;
+    font-family: "Roboto";
     
 }
 
@@ -59,7 +60,7 @@ body{
 
 .nav-container h3{
     padding-top: -10px;
-    margin-bottom: -5px;
+    margin-bottom: -2px;
     font-size: 34px;
 
 }
@@ -76,6 +77,11 @@ body{
     width: 1000px;
     height: 400px;
 
+}
+.main-header {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: -45px;
 }
 
 
